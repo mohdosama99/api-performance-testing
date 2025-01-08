@@ -3,35 +3,35 @@ A performance testing suite for a Flask application. This repository includes sc
 
 # Steps to Set Up and Run the Project
 
-# 1. Clone the Repository
-# Open your terminal and run:
+1. Clone the Repository
+Open your terminal and run:
 ```bash
 git clone git@github.com:mohdosama99/api-performance-testing.git
 ```
 
 cd flask-api-performance-tests
 
-# 2. Set Up the Flask App
-# a) Create a Virtual Environment:
+2. Set Up the Flask App
+a) Create a Virtual Environment:
 ```bash
 python3 -m venv venv
 source venv/bin/activate  # For macOS/Linux
 venv\Scripts\activate     # For Windows
 ```
 
-# b) Install Dependencies:
+b) Install Dependencies:
 ```bash
 pip3 install -r requirements.txt
 ```
 
-# c) Run the Flask App:
+c) Run the Flask App:
 ```bash
 python3 test.py
 ```
-# Comment: The Flask app should now be running at http://127.0.0.1:5000. You can verify by opening the URL in your browser and seeing "Hello, World!"
+Comment: The Flask app should now be running at http://127.0.0.1:5000. You can verify by opening the URL in your browser and seeing "Hello, World!"
 
-# 3. Run Performance Tests Using Locust
-# Install Locust (if not already installed):
+3. Run Performance Tests Using Locust
+Install Locust (if not already installed):
 ```bash
 pip3 install locust
 ```
